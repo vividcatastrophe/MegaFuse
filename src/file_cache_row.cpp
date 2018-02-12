@@ -4,6 +4,7 @@
 
 #include "file_cache_row.h"
 #include "Config.h"
+#include <cmath>
 #include <fcntl.h>
 #include <stdlib.h>
 #include <unistd.h>
