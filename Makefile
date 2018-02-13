@@ -49,5 +49,6 @@ clean:
 install: $(OUT)
 	mkdir -p /usr/share/doc/MegaFuse
 	cp FAQ.txt LICENSE.txt README.md megafuse.conf /usr/share/doc/MegaFuse/
-	cp megafuse.service megafuse@.service /lib/systemd/system/
+	cp megafuse@.service /lib/systemd/system/
+	cp megafuse.service /etc/systemd/user
 	cp $(OUT) /usr/bin/
